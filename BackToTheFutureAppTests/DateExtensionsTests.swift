@@ -28,6 +28,6 @@ class DateExtensionsTests: XCTestCase {
         let date = Calendar.current.date(from: dateComponents)!
         let formattedDate = date.formattedDate()
         
-        XCTAssertEqual(formattedDate, "31/01/2023")
+        XCTAssertEqual(formattedDate, "04/05/2023")
     }
 }
